@@ -1,3 +1,4 @@
-function getData() {
-    return "Station12をクリア!"
+export  function getData() {
+    // defaultダメ
+    return "Station12をクリア!";
 }

@@ -1,3 +1,4 @@
+import {getData} from "./station15.js"
 async function main() {
     const results = await getData();
     const elem = document.getElementById("result");
@@ -9,4 +10,6 @@ async function main() {
     })
 }
 
-main()
+setTimeout(() => {
+    main()
+},3000)
